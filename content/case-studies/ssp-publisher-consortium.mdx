@@ -1,0 +1,34 @@
+---
+title: "Custom SSP for Publisher Consortium"
+summary: "Increased eCPM by 22%."
+slug: "ssp-publisher-consortium"
+kpis:
+  - "+22% eCPM"
+  - "Improved fill"
+  - "Header bidding rollout"
+industries: ["Publishing"]
+services: ["SSP", "Yield Optimization", "Header Bidding"]
+date: "2024-03-22"
+read_time_minutes: 5
+---
+
+## Problem
+A publisher consortium lacked shared tooling to manage premium supply, optimize yield, and execute header bidding strategies across members. Disparate SSP contracts and analytics created inconsistent monetization.
+
+## Approach
+Helix created a federated SSP platform with policy-aware supply controls, shared analytics, and automated deal packaging. We implemented header bidding infrastructure tuned for each publisher while maintaining unified reporting.
+
+## Architecture Highlights
+- Multi-tenant ad serving core with marketplace segmentation and priority rules per publisher.
+- Header bidding adapters with latency-aware controls, creative validation, and anomaly detection.
+- Unified analytics lake delivering eCPM, fill, and demand partner diagnostics across the consortium.
+
+## Results
+- +22% eCPM uplift within the first quarter following rollout.
+- Fill rate improvements driven by dynamic floor pricing and priority sequencing.
+- Coordinated header bidding launches across 14 publishers with shared QA artifacts.
+
+## Stack
+- Core services in Go and Node.js deployed on Kubernetes with regional clusters.
+- Header bidding infrastructure leveraging Prebid Server extensions and CDN edge workers.
+- Analytics lakehouse via BigQuery, Looker, and automated partner health scoring.

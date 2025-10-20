@@ -1,0 +1,19 @@
+import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Cookies",
+  description: "Helix policy information.",
+  alternates: { canonical: canonical("/cookies") }
+};
+
+export default function CookiesPage() {
+  return (
+    <div className="mx-auto max-w-3xl space-y-6 px-6 py-16">
+      <h1 className="text-4xl font-semibold text-text">Cookies</h1>
+      <p className="text-base leading-7 text-muted">
+        This page outlines Helix cookie practices. Tailor the content to your organization’s requirements before launch.
+      </p>
+    </div>
+  );
+}

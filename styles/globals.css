@@ -1,0 +1,54 @@
+:root {
+  --hx-bg: #0B0F14;
+  --hx-surface: #0E141B;
+  --hx-text: #E6EDF5;
+  --hx-muted: #9AA6B2;
+  --hx-accent: #00E5FF;
+  --hx-accent-2: #3B82F6;
+  --hx-border: #1F2A37;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--hx-bg);
+  color: var(--hx-text);
+  font-family: var(--font-inter);
+}
+
+* {
+  border-color: var(--hx-border);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--hx-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--hx-accent);
+  color: #020617;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--hx-accent);
+  color: #020617;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  z-index: 50;
+  transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+  top: 1rem;
+}

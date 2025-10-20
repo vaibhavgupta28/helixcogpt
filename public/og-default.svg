@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Helix Default Open Graph Image</title>
+  <desc id="desc">Dark background with Helix logotype and data platform tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F14" />
+      <stop offset="100%" stop-color="#0E141B" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g fill="none" stroke="#00E5FF" stroke-width="2" opacity="0.4">
+    <path d="M60 160 C200 80, 400 240, 540 160 S880 80, 1100 220" />
+    <path d="M60 320 C220 260, 360 420, 520 340 S860 260, 1100 360" />
+    <path d="M60 480 C240 420, 360 580, 520 500 S860 420, 1100 520" />
+  </g>
+  <g fill="#E6EDF5" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif">
+    <text x="80" y="250" font-size="64" font-weight="600">HELIX</text>
+    <text x="80" y="320" font-size="36" fill="#9AA6B2">MetaDSP &amp; Data Engineering Studio</text>
+  </g>
+  <g fill="#00E5FF" font-family="'Inter', system-ui, sans-serif" font-size="28">
+    <text x="80" y="420">$2B+ managed media</text>
+    <text x="80" y="470">50B+ daily impressions</text>
+    <text x="80" y="520">Deployed in 20+ markets</text>
+  </g>
+</svg>
